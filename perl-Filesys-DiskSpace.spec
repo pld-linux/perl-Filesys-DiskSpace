@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform crappy "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Filesys
-%define	pnam	DiskSpace
+%define		pdir	Filesys
+%define		pnam	DiskSpace
 Summary:	Filesys::DiskSpace - Perl df
 Summary(pl):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
