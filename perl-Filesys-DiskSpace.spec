@@ -3,7 +3,7 @@ Summary:	Filesys-DiskSpace perl module
 Summary(pl):	Modu³ perla Filesys-DiskSpace
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
