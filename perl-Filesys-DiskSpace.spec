@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Filesys
 %define	pnam	DiskSpace
-Summary:	Filesys::DiskSpace perl module
-Summary(pl):	Modu³ perla Filesys::DiskSpace
+Summary:	Filesys::DiskSpace - Perl df
+Summary(pl):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
 Release:	7
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b95651483e0234db33561a53708e007d
@@ -16,10 +17,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Filesys::DiskSpace - Perl df.
+The Filesys::DiskSpace Perl module is used for displaying information
+of a file system such as its type, the amount of disk space occupied,
+the total disk space and the number of inodes.
 
 %description -l pl
-Filesys::DiskSpace - 'df' dla perla.
+Modu³ Perla Filesys::DiskSpace s³u¿y do wypisywania takich informacji
+o systemie plików, jak jego typ, ilo¶æ zajêtego miejsca na dysku,
+³±czna pojemno¶æ dysku i liczba i-wêz³ów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
