@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Filesys
 %define	pnam	DiskSpace
-%include	/usr/lib/rpm/macros.perl
 Summary:	Filesys-DiskSpace perl module
 Summary(pl):	Modu³ perla Filesys-DiskSpace
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Filesys-DiskSpace - Perl df.
 Filesys-DiskSpace - 'df' dla perla.
 
 %prep
-%setup -q -n Filesys-DiskSpace-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
