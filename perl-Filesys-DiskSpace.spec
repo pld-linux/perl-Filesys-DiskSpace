@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Filesys
 %define	pnam	DiskSpace
-Summary:	Filesys-DiskSpace perl module
-Summary(pl):	Modu³ perla Filesys-DiskSpace
+Summary:	Filesys::DiskSpace perl module
+Summary(pl):	Modu³ perla Filesys::DiskSpace
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Filesys-DiskSpace - Perl df.
+Filesys::DiskSpace - Perl df.
 
 %description -l pl
-Filesys-DiskSpace - 'df' dla perla.
+Filesys::DiskSpace - 'df' dla perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
