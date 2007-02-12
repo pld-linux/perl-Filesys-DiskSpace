@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	DiskSpace
 Summary:	Filesys::DiskSpace - Perl df
-Summary(pl):	Filesys::DiskSpace - df w Perlu
+Summary(pl.UTF-8):   Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
 Release:	8
@@ -25,10 +25,10 @@ The Filesys::DiskSpace Perl module is used for displaying information
 of a file system such as its type, the amount of disk space occupied,
 the total disk space and the number of inodes.
 
-%description -l pl
-Modu³ Perla Filesys::DiskSpace s³u¿y do wypisywania takich informacji
-o systemie plików, jak jego typ, ilo¶æ zajêtego miejsca na dysku,
-³±czna pojemno¶æ dysku i liczba i-wêz³ów.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Filesys::DiskSpace sÅ‚uÅ¼y do wypisywania takich informacji
+o systemie plikÃ³w, jak jego typ, iloÅ›Ä‡ zajÄ™tego miejsca na dysku,
+Å‚Ä…czna pojemnoÅ›Ä‡ dysku i liczba i-wÄ™zÅ‚Ã³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
