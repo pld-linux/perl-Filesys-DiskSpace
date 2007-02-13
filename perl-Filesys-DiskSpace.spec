@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	DiskSpace
 Summary:	Filesys::DiskSpace - Perl df
-Summary(pl.UTF-8):   Filesys::DiskSpace - df w Perlu
+Summary(pl.UTF-8):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
 Release:	8
