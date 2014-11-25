@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform crappy "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Filesys
 %define		pnam	DiskSpace
+%include	/usr/lib/rpm/macros.perl
 Summary:	Filesys::DiskSpace - Perl df
 Summary(pl.UTF-8):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b95651483e0234db33561a53708e007d
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Filesys-DiskSpace/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
