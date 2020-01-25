@@ -4,7 +4,6 @@
 
 %define		pdir	Filesys
 %define		pnam	DiskSpace
-%include	/usr/lib/rpm/macros.perl
 Summary:	Filesys::DiskSpace - Perl df
 Summary(pl.UTF-8):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
