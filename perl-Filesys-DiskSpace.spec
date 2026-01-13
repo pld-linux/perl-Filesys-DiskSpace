@@ -8,7 +8,7 @@ Summary:	Filesys::DiskSpace - Perl df
 Summary(pl.UTF-8):	Filesys::DiskSpace - df w Perlu
 Name:		perl-Filesys-DiskSpace
 Version:	0.05
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
